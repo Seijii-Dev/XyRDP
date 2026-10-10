@@ -140,7 +140,7 @@ concurrency:
 
 jobs:
   rdp:
-    runs-on: windows-2022
+    runs-on: windows-2025
     timeout-minutes: 360
 
     env:
@@ -200,7 +200,7 @@ jobs:
         if: ${{ inputs.win10 != 'tidak' }}
         timeout-minutes: 15
         shell: pwsh
-        run: ./scripts/setup-win10.ps1
+        run: ./scripts/setup-win11.ps1
 
       - name: Host setup XyDesk Remote (AVC444 + ClearType + audio/mic + UDP 4433)
         if: ${{ inputs.xydesk != 'tidak' }}
