@@ -1,0 +1,50 @@
+{
+  "active": false,
+  "hostname": "rdpfree-2",
+  "os": "Ubuntu 24.04.5 LTS (Linux Polos · SSH Server)",
+  "os_style": "Linux Polos (SSH Server)",
+  "linux_mode": "polos",
+  "rdp_port": 22,
+  "ssh_port": 22,
+  "rdp_user": "Seiji-PC",
+  "rdp_listen": "LISTENING :22 & :3389 (sshd)",
+  "started_at": "2026-10-22T15:37:37Z",
+  "expires_at": "2026-10-22T21:19:37Z",
+  "heartbeat_at": "2026-10-22T15:42:07Z",
+  "duration_menit": 342,
+  "run_id": "39806475725",
+  "run_attempt": "1",
+  "run_number": "2",
+  "run_url": "https://github.com/Seijii-Dev/XyRDP/actions/runs/39806475725",
+  "hardware": {
+    "cpu_threads": 4,
+    "cpu_cores": 4,
+    "cpu_load_pct": 5,
+    "ram_gb": 15.6,
+    "ram_total_gb": 15.6,
+    "ram_used_gb": 1.0,
+    "disk_total_gb": 145,
+    "disk_free_gb": 85,
+    "disk_used_gb": 60,
+    "uptime_minutes": 4
+  },
+  "akses": {
+    "mode": "tailscale",
+    "tailscale": {
+      "status": "ok",
+      "ip": "100.89.222.9",
+      "hostname": "rdpfree-2",
+      "port": 22,
+      "ssh_port": 22,
+      "connect": "100.89.222.9:22"
+    },
+    "tunnel": {
+      "status": "ok",
+      "type": "tailscale",
+      "host": "100.89.222.9",
+      "port": 22,
+      "address": "100.89.222.9:22",
+      "connect": "100.89.222.9:22"
+    }
+  }
+}
